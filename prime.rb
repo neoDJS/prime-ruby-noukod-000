@@ -7,7 +7,7 @@ def prime?(val)
     div = (2..(valSqrt)).any?{|e| val%e == 0
   puts "#{val} - #{e} : #{valSqrt} - #{val%e == 0}"
                                     break if val%e == 0}
-                                      puts "there1"
+                                      puts "there1 #{div}"
   elsif (val > 1)
     puts "there2"
     div = false
