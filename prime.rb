@@ -13,7 +13,6 @@ def prime?(val)
     puts "there2"
     div = false
   end
-  puts "hhhhhhhhh #{div}"
   prm = !div
 end
 
