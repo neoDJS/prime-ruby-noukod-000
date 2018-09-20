@@ -16,3 +16,6 @@ def prime?(val)
   puts "hhhhhhhhh #{div}"
   prm = !div
 end
+
+
+puts "#{prime?(4)}"
